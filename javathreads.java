@@ -24,6 +24,7 @@ public class javathreads {
 					System.out.println("odd thread interrupted");
 			}
 		});
+		System.out.println("From new branch");
 		oddthread.start();
 		eventhread.start();
 		
